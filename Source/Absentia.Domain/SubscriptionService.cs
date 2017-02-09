@@ -37,7 +37,7 @@ namespace Absentia.Domain
             //create subscription payload
             var subscriptionPayload = new Subscription
             {
-                Resource = string.Format($"Users('{username}')/events?$filter=contains(subject,'Approved Leave')"),
+                Resource = string.Format($"Users('{username}')/events?$filter=contains(subject,'Leave')"),
                 ChangeType = "updated",
                 NotificationUrl = _appSetting.AbsentiaNotificationUrl,
                 ClientState = Guid.NewGuid().ToString(),
