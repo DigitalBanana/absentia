@@ -14,6 +14,8 @@ Connection string.
 
 [Microsoft Graph Notifications example](https://github.com/microsoftgraph/aspnet-webhooks-rest-sample)
 
+[Office Resource Reference](https://msdn.microsoft.com/en-us/office/office365/api/complex-types-for-mail-contacts-calendar)
+
 [Entity Framework Code First Migrations](https://msdn.microsoft.com/en-us/library/jj591621(v=vs.113).aspx)
 
 

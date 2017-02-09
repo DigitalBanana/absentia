@@ -20,7 +20,7 @@ namespace Absentia.Domain
             _tokenService = tokenService;
         }
 
-        private HttpClient GetResourseClient(string accessToken)
+        private HttpClient GetResourceClient(string accessToken)
         {
             HttpClient client = new HttpClient();
             client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", accessToken);
@@ -31,7 +31,7 @@ namespace Absentia.Domain
         public HttpClient GetGraphResourceClient()
         {
             AuthenticationResult authResult = _tokenService.GetCredentialsAccessToken(_appSetting.MicrosoftGraphResource);
-            return GetResourseClient(authResult.AccessToken);
+            return GetResourceClient(authResult.AccessToken);
         }
 
         public HttpClient GetOutlookResourceClient()
@@ -39,7 +39,7 @@ namespace Absentia.Domain
             AuthenticationResult authResult = _tokenService.GetCertificateAccessToken(_appSetting.OutlookResource);
 
             HttpClient client = new HttpClient();
-            return GetResourseClient(authResult.AccessToken);
+            return GetResourceClient(authResult.AccessToken);
         }
 
     }
