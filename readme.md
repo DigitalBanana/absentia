@@ -1,4 +1,7 @@
 # Absentia
+
+![CI Status](https://thecodefaceuk.visualstudio.com/_apis/public/build/definitions/fcc09e7f-63e2-4376-86b6-c48f16836d51/1/badge )
+
 ## Overview
 An example of using the Microsoft Graph Subscription and Notification functionality to automatically update Office 365 calendars.
 
