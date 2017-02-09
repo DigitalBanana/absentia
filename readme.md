@@ -14,7 +14,7 @@ Connection string.
 
 [Microsoft Graph Notifications example](https://github.com/microsoftgraph/aspnet-webhooks-rest-sample)
 
-[Entity Framwork Code First Migrations](https://msdn.microsoft.com/en-us/library/jj591621(v=vs.113).aspx)
+[Entity Framework Code First Migrations](https://msdn.microsoft.com/en-us/library/jj591621(v=vs.113).aspx)
 
 
 
